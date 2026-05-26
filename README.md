@@ -51,30 +51,34 @@ Cyclistic wants to convert casual riders into annual members by understanding:
 ### Total Rides by User Type
 
 ```sql
-SELECT member_casual, COUNT(*) AS total_rides
-FROM cleaned
-GROUP BY member_casual;
-Average Ride Duration
-
 SELECT member_casual,
-
-       AVG(ride_length) AS avg_ride_length_minutes
+ COUNT(*) AS total_rides
 FROM cleaned
 GROUP BY member_casual;
-Weekly Usage Trends
 
+Average Ride Duration
+```sql
+SELECT member_casual,
+ AVG(ride_length) AS avg_ride_length_minutes
+FROM cleaned
+GROUP BY member_casual;
+
+Weekly Usage Trends
+```sql
 SELECT member_casual,
        day_of_week,
        COUNT(*) AS ride_count
 FROM cleaned
 GROUP BY member_casual, day_of_week;
-Monthly Usage Trends
 
+Monthly Usage Trends
+```sql
 SELECT member_casual,
        month,
        COUNT(*) AS ride_count
 FROM cleaned
 GROUP BY member_casual, month;
+
 🔍 KEY INSIGHTS
 
 Casual riders take longer rides
