@@ -118,9 +118,9 @@ GROUP BY member_casual, month;
 
 📌 Summary of Findings
 
--Clear behavioral differences exist between casual riders and members
--Casual riders are more recreational users
--Members show consistent commuter-style usage
+- Clear behavioral differences exist between casual riders and members 
+- Casual riders are more recreational users
+- Members show consistent commuter-style usage
 
 
 ## 📈 Business Impact
