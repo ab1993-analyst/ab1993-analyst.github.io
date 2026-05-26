@@ -56,17 +56,20 @@ SELECT member_casual,
 FROM cleaned
 GROUP BY member_casual;
 🔹 2. Average Ride Duration
+```sql
 SELECT member_casual,
        AVG(ride_length) AS avg_ride_length_minutes
 FROM cleaned
 GROUP BY member_casual;
 🔹 3. Weekly Usage Trends
+```sql
 SELECT member_casual,
        day_of_week,
        COUNT(*) AS ride_count
 FROM cleaned
 GROUP BY member_casual, day_of_week;
 🔹 4. Monthly Usage Trends
+```sql
 SELECT member_casual,
        month,
        COUNT(*) AS ride_count
