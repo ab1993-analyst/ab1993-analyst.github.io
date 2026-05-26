@@ -96,28 +96,22 @@ GROUP BY member_casual, month;
 
 ## 📌 Business Recommendations
 
-🎯 Weekend Strategy
+### 🎯 Weekend Strategy
+- Offer weekend-focused membership promotions  
+- Target casual riders who already prefer weekends  
 
-Offer weekend-focused membership promotions
-Target casual riders who already prefer weekends
+### 🎯 Conversion Strategy
+- Identify frequent casual riders  
+- Send targeted offers to convert them  
 
+### 🎯 Trial Strategy
+- Introduce short-term trial memberships  
+- Let users experience full benefits  
 
-🎯 Conversion Strategy
+### 🎯 Seasonal Strategy
+- Run campaigns during peak summer months  
+- Increase marketing during high-demand periods  
 
-Identify frequent casual riders
-Send targeted offers to convert them into members
-
-
-🎯 Trial Strategy
-
-Introduce short-term trial memberships
-Allow users to experience full benefits
-
-
-🎯 Seasonal Strategy
-
-Run campaigns during peak summer months
-Increase marketing during high-demand periods
 
 
 ## 📊 Conclusion
@@ -150,21 +144,12 @@ Understanding rider behavior enables data-driven decisions that can increase Cyc
 
 ## 👤 Author
 
-👨‍💻 Ahmed Basheer
+**Ahmed Basheer**  
+Aspiring Data Analyst  
 
-Aspiring Data Analyst
+📊 Skills:  
+SQL | Google Sheets | Data Visualization | Data Analysis  
 
-
-
-🛠️ Skills
-
-SQL
-Google Sheets
-Data Visualization
-Data Analysis
-
-
-## 📫 Contact
-
-Email: ab11999333@gmail.com
+📫 Contact:  
+Email: ab11999333@gmail.com  
 LinkedIn: http://linkedin.com/in/ahmed-basheer93
