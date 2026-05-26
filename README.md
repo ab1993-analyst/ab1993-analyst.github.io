@@ -55,14 +55,14 @@ SELECT member_casual,
  COUNT(*) AS total_rides
 FROM cleaned
 GROUP BY member_casual;
-
+```
 Average Ride Duration
 ```sql
 SELECT member_casual,
  AVG(ride_length) AS avg_ride_length_minutes
 FROM cleaned
 GROUP BY member_casual;
-
+```
 Weekly Usage Trends
 ```sql
 SELECT member_casual,
@@ -70,7 +70,7 @@ SELECT member_casual,
        COUNT(*) AS ride_count
 FROM cleaned
 GROUP BY member_casual, day_of_week;
-
+```
 Monthly Usage Trends
 ```sql
 SELECT member_casual,
@@ -78,7 +78,7 @@ SELECT member_casual,
        COUNT(*) AS ride_count
 FROM cleaned
 GROUP BY member_casual, month;
-
+```
 🔍 KEY INSIGHTS
 
 Casual riders take longer rides
