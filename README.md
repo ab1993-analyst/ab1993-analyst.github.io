@@ -66,12 +66,15 @@ GROUP BY member_casual;
 
 3. Weekly Usage Trends
 
+
 SELECT member_casual,
        day_of_week,
        COUNT(*) AS ride_count
 FROM cleaned
 GROUP BY member_casual, day_of_week;
+
 4. Monthly Usage Trends
+
 
 SELECT member_casual,
        month,
@@ -79,33 +82,25 @@ SELECT member_casual,
 FROM cleaned
 GROUP BY member_casual, month;
 
-## 🔍 Key Insights
+🔍 Key Insights
 
 Casual riders take longer rides than members
 Members ride more consistently during weekdays
 Casual riders are more active on weekends
 Ride volume increases in warmer months
+📌 Business Recommendations
 
----
-
-## 📌 Business Recommendations
 Offer weekend membership discounts
 Target frequent casual riders for conversion
 Introduce trial memberships
-Run seasonal marketing campaigns
-
----
-
-## 📊 Conclusion
+Run seasonal marketing campaigns 
+📊 Conclusion
 
 This analysis provides insights into rider behavior and helps guide strategies to increase Cyclistic membership growth.
 
----
-
-## 👤 Author
+👤 Author
 
 Ahmed Basheer
 Aspiring Data Analyst
 SQL | Tableau | Google Sheets | Data Visualization
 
----
