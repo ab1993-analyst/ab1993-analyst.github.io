@@ -79,6 +79,7 @@ SELECT member_casual,
 FROM cleaned
 GROUP BY member_casual, month;
 ```
+
 🔍 KEY INSIGHTS
 
 Casual riders take longer rides
