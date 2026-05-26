@@ -80,7 +80,7 @@ FROM cleaned
 GROUP BY member_casual, month;
 ```
 
-🔍 KEY INSIGHTS
+## 🔍 KEY INSIGHTS
 
 Casual riders take longer rides
 Members ride more during weekdays
@@ -88,7 +88,7 @@ Casual riders prefer weekends
 Higher usage in summer months
 
 
-📌 BUSINESS RECOMMENDATIONS
+## 📌 BUSINESS RECOMMENDATIONS
 
 Offer weekend membership discounts
 Target frequent casual riders
@@ -96,13 +96,13 @@ Introduce trial memberships
 Run seasonal campaigns
 
 
-📊 CONCLUSION
+## 📊 CONCLUSION
 
 This analysis reveals clear behavioral differences between casual riders and members, supporting targeted marketing strategies.
 
 
 
-👤 AUTHOR
+## 👤 AUTHOR
 
 Ahmed Basheer
 Aspiring Data Analyst
