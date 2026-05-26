@@ -56,12 +56,14 @@ SELECT member_casual,
        COUNT(*) AS total_rides
 FROM cleaned
 GROUP BY member_casual;
+```
 🔹 2. Average Ride Duration
 
 SELECT member_casual,
        AVG(ride_length) AS avg_ride_length_minutes
 FROM cleaned
 GROUP BY member_casual;
+```
 🔹 3. Weekly Usage Trends
 
 SELECT member_casual,
@@ -69,6 +71,7 @@ SELECT member_casual,
        COUNT(*) AS ride_count
 FROM cleaned
 GROUP BY member_casual, day_of_week;
+```
 🔹 4. Monthly Usage Trends
 
 SELECT member_casual,
@@ -76,6 +79,7 @@ SELECT member_casual,
        COUNT(*) AS ride_count
 FROM cleaned
 GROUP BY member_casual, month;
+```
 ## 🔍 Key Insights
 
 📌 Insight 1: Ride Duration Difference
