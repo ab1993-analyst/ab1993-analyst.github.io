@@ -87,8 +87,8 @@ GROUP BY member_casual, month;
 - Members ride more consistently during weekdays
 - Casual riders are more active on weekends
 - Ride volume increases in warmer months
-📌 Business Recommendations
 
+📌 Business Recommendations
 - Offer weekend membership discounts
 - Target frequent casual riders for conversion
 - Introduce trial memberships
