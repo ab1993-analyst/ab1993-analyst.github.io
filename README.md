@@ -81,32 +81,19 @@ FROM cleaned
 GROUP BY member_casual, month;
 ```
 
+```markdown id="insights_final"
 ## 🔍 Key Insights
 
-### 📌 Insight 1: Ride Duration Difference
+- 📌 Casual riders take longer, leisure-based trips  
+- 📌 Members ride consistently on weekdays (commuting behavior)  
+- 📌 Casual riders peak on weekends  
+- 📌 Ride demand increases in summer months (seasonality effect)
 
-Casual riders take longer trips than members
-Indicates recreational usage patterns
+## 📊 Behavioral Summary
 
-
-### 📌 Insight 2: Weekly Behavior Pattern
-
-Members ride consistently during weekdays
-Casual riders peak on weekends
-Different usage purposes (commuting vs leisure)
-
-
-### 📌 Insight 3: Seasonal Trend
-
-Ride volume increases in warmer months
-Casual riders are more affected by seasonality
-
-
-### 📌 Insight 4: User Behavior Summary
-
-Members = frequent, short, routine trips
-Casual = longer, flexible, leisure-based trips
-
+- Members = routine commuters  
+- Casual riders = recreational users  
+- Clear opportunity exists to convert weekend casual riders into members  
 
 ## 📌 Business Recommendations
 
@@ -145,16 +132,22 @@ Members show consistent commuter-style usage
 
 ## 📈 Business Impact
 
-Insights support targeted marketing strategies
-Helps improve membership conversion rates
-Identifies strong seasonal opportunities
+- Identifies high-value casual riders for conversion  
+- Supports targeted marketing campaigns  
+- Improves membership growth strategy using real usage data  
+- Helps optimize seasonal marketing efforts
+
 
 
 ## 🚀 Final Takeaway
 
 Understanding rider behavior enables data-driven decisions that can increase Cyclistic membership growth and improve marketing efficiency.
 
+## ⚠️ Limitations
 
+- Data is historical and not real-time  
+- Weather and external factors not included  
+- Some ride anomalies may still exist after cleaning 
 
 ## 👤 Author
 
