@@ -57,21 +57,21 @@ SELECT member_casual,
 FROM cleaned
 GROUP BY member_casual;
 
-### 2. Average Ride Duration
+2. Average Ride Duration
 
 SELECT member_casual,
        AVG(ride_length) AS avg_ride_length_minutes
 FROM cleaned
 GROUP BY member_casual;
 
-### 3. Weekly Usage Trends
+3. Weekly Usage Trends
 
 SELECT member_casual,
        day_of_week,
        COUNT(*) AS ride_count
 FROM cleaned
 GROUP BY member_casual, day_of_week;
-### 4. Monthly Usage Trends
+4. Monthly Usage Trends
 
 SELECT member_casual,
        month,
@@ -97,8 +97,10 @@ Run seasonal marketing campaigns
 This analysis provides insights into rider behavior and helps guide strategies to increase Cyclistic membership growth.
 
 
+
 👤 Author
 
 Ahmed Basheer
 Aspiring Data Analyst
 SQL | Tableau | Google Sheets | Data Visualization
+
