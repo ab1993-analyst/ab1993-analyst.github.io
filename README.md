@@ -50,126 +50,79 @@ This analysis aims to understand:
 ## 📈 Analysis
 
 ### 🔹 1. Total Rides by User Type
-
 ```sql
 SELECT member_casual,
        COUNT(*) AS total_rides
 FROM cleaned
 GROUP BY member_casual;
 🔹 2. Average Ride Duration
-
 SELECT member_casual,
        AVG(ride_length) AS avg_ride_length_minutes
 FROM cleaned
 GROUP BY member_casual;
 🔹 3. Weekly Usage Trends
-
 SELECT member_casual,
        day_of_week,
        COUNT(*) AS ride_count
 FROM cleaned
 GROUP BY member_casual, day_of_week;
 🔹 4. Monthly Usage Trends
-
 SELECT member_casual,
        month,
        COUNT(*) AS ride_count
 FROM cleaned
 GROUP BY member_casual, month;
-🔍 Key Insights
-
+## 🔍 KEY INSIGHTS
 📌 Insight 1: Ride Duration Difference
-
-Casual riders take longer trips than members
-Indicates recreational usage patterns
-
-
+- **Casual riders take longer trips than members**
+- **Indicates recreational usage patterns**
 📌 Insight 2: Weekly Behavior Pattern
-
-Members ride consistently during weekdays
-Casual riders peak on weekends
-Different usage purposes (commuting vs leisure)
-
-
+- **Members ride consistently during weekdays**
+- **Casual riders peak on weekends**
+- **Different usage purposes (commuting vs leisure)**
 📌 Insight 3: Seasonal Trend
-
-Ride volume increases in warmer months
-Casual riders are more affected by seasonality
-
-
+- **Ride volume increases in warmer months**
+- **Casual riders are more affected by seasonality**
 📌 Insight 4: User Behavior Summary
-
-Members = frequent, short, routine trips
-Casual = longer, flexible, leisure-based trips
-
-
-📌 Business Recommendations
-
+- **Members = frequent, short, routine trips**
+- **Casual = longer, flexible, leisure-based trips**
+## 📌 BUSINESS RECOMMENDATIONS
 🎯 Weekend Strategy
-
-Offer weekend-focused membership promotions
-Target casual riders who already prefer weekends
-
-
+- **Offer weekend-focused membership promotions**
+- **Target casual riders who already prefer weekends**
 🎯 Conversion Strategy
-
-Identify frequent casual riders
-Send targeted offers to convert them into members
-
-
+- **Identify frequent casual riders**
+- **Send targeted offers to convert them into members**
 🎯 Trial Strategy
-
-Introduce short-term trial memberships
-Allow users to experience full benefits
-
-
+- **Introduce short-term trial memberships**
+- **Allow users to experience full benefits**
 🎯 Seasonal Strategy
-
-Run campaigns during peak summer months
-Increase marketing during high-demand periods
-
-
-📊 Conclusion
-
+- **Run campaigns during peak summer months**
+- **Increase marketing during high-demand periods**
+## 📊 CONCLUSION
 📌 Summary of Findings
-
-Clear behavioral differences exist between casual riders and members
-Casual riders are more recreational users
-Members show consistent commuter-style usage
-
-
-📈 Business Impact
-
-Insights support targeted marketing strategies
-Helps improve membership conversion rates
-Identifies strong seasonal opportunities
-
-
-🚀 Final Takeaway
-
+- **Clear behavioral differences exist between casual riders and members**
+- **Casual riders are more recreational users**
+- **Members show consistent commuter-style usage**
+📈 BUSINESS IMPACT
+- **Insights support targeted marketing strategies**
+- **Helps improve membership conversion rates**
+- **Identifies strong seasonal opportunities**
+🚀 FINAL TAKEWAY
 Understanding rider behavior enables data-driven decisions that can increase Cyclistic membership growth and improve marketing efficiency.
 
-
-
 👤 Author
-
 👨‍💻 Ahmed Basheer
-
 Aspiring Data Analyst
 
-
-
 🛠️ Skills
-
 SQL
 Tableau
 Google Sheets
 Data Visualization
 Data Analysis
 
-
 📫 Contact
-
 GitHub: https://github.com/ab1993-analyst
 Email: ab11999333@gmail.com
 LinkedIn: http://linkedin.com/in/ahmed-basheer93
