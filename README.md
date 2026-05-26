@@ -83,10 +83,10 @@ GROUP BY member_casual, month;
 
 ## 🔍 Key Insights
 
-- 📌 Casual riders take longer, leisure-based trips  
-- 📌 Members ride consistently on weekdays (commuting behavior)  
-- 📌 Casual riders peak on weekends  
-- 📌 Ride demand increases in summer months (seasonality effect)
+-  Casual riders take longer, leisure-based trips  
+-  Members ride consistently on weekdays (commuting behavior)  
+-  Casual riders peak on weekends  
+-  Ride demand increases in summer months (seasonality effect)
 
 ## 📊 Behavioral Summary
 
@@ -118,9 +118,9 @@ GROUP BY member_casual, month;
 
 📌 Summary of Findings
 
-Clear behavioral differences exist between casual riders and members
-Casual riders are more recreational users
-Members show consistent commuter-style usage
+-Clear behavioral differences exist between casual riders and members
+-Casual riders are more recreational users
+-Members show consistent commuter-style usage
 
 
 ## 📈 Business Impact
