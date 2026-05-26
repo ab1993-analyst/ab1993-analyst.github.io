@@ -83,32 +83,32 @@ GROUP BY member_casual, month;
 
 ## 🔍 Key Insights
 
-📌 Insight 1: Ride Duration Difference
+### 📌 Insight 1: Ride Duration Difference
 
 Casual riders take longer trips than members
 Indicates recreational usage patterns
 
 
-📌 Insight 2: Weekly Behavior Pattern
+### 📌 Insight 2: Weekly Behavior Pattern
 
 Members ride consistently during weekdays
 Casual riders peak on weekends
 Different usage purposes (commuting vs leisure)
 
 
-📌 Insight 3: Seasonal Trend
+### 📌 Insight 3: Seasonal Trend
 
 Ride volume increases in warmer months
 Casual riders are more affected by seasonality
 
 
-📌 Insight 4: User Behavior Summary
+### 📌 Insight 4: User Behavior Summary
 
 Members = frequent, short, routine trips
 Casual = longer, flexible, leisure-based trips
 
 
-📌 Business Recommendations
+## 📌 Business Recommendations
 
 🎯 Weekend Strategy
 
