@@ -106,4 +106,4 @@ This analysis reveals clear behavioral differences between casual riders and mem
 
 Ahmed Basheer
 Aspiring Data Analyst
-SQL | Tableau | Google Sheets | Data Visualization
+SQL | Google Sheets | Data Visualization
