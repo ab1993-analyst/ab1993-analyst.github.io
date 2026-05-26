@@ -81,7 +81,7 @@ FROM cleaned
 GROUP BY member_casual, month;
 ```
 
-```markdown id="insights_final"
+markdown id="insights_final"
 ## 🔍 Key Insights
 
 - 📌 Casual riders take longer, leisure-based trips  
