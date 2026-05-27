@@ -39,6 +39,8 @@
             border-radius: 12px;
             box-shadow: 0 4px 18px rgba(0, 0, 0, 0.15);
             transition: transform 0.3s ease;
+            margin-bottom: 20px;
+            width: 100%;
         }
 
         .dashboard-gallery img:hover {
@@ -55,14 +57,20 @@
         }
 
         .badge {
-            margin-right: 8px;
-            padding: 8px 12px;
-            font-size: 0.9rem;
+            margin: 8px;
+            padding: 10px 16px;
+            font-size: 0.95rem;
         }
 
         .project-description {
             max-width: 900px;
             margin: auto;
+        }
+
+        footer {
+            padding: 20px;
+            background: #2c3e50;
+            color: white;
         }
     </style>
 
@@ -104,7 +112,9 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="assets/Ahmed_Basheer_Resume.pdf" target="_blank">Resume</a>
+                    <a class="nav-link" href="assets/Ahmed_Basheer_Resume.pdf" target="_blank">
+                        Resume
+                    </a>
                 </li>
 
                 <li class="nav-item">
@@ -128,9 +138,19 @@
             src="assets/img/ahmed-profile.jpg"
             alt="Ahmed Basheer">
 
-        <h1>Ahmed Basheer</h1>
+        <h1 class="masthead-heading text-uppercase mb-0">
+            Ahmed Basheer
+        </h1>
 
-        <p>
+        <div class="divider-custom divider-light">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon">
+                <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="divider-custom-line"></div>
+        </div>
+
+        <p class="masthead-subheading font-weight-light mb-0">
             SQL | Google Sheets | Tableau | R Studio | Data Visualization | Business Insights
         </p>
 
@@ -143,7 +163,9 @@
 
     <div class="container">
 
-        <h2 class="text-center text-uppercase">Projects</h2>
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-5">
+            Projects
+        </h2>
 
         <div class="row justify-content-center">
 
@@ -155,7 +177,8 @@
                     data-bs-target="#portfolioModal1">
 
                     <img class="img-fluid rounded"
-                        src="assets/img/portfolio/cyclistic-dashboard.png">
+                        src="assets/img/portfolio/cyclistic-dashboard.png"
+                        alt="Cyclistic Dashboard">
 
                     <h4 class="text-center mt-3">
                         Cyclistic Bike-Share Case Study
@@ -165,7 +188,7 @@
 
             </div>
 
-            <!-- PROJECT 2 (ADDED) -->
+            <!-- PROJECT 2 -->
             <div class="col-md-6 col-lg-5 mb-5">
 
                 <div class="portfolio-item mx-auto"
@@ -173,7 +196,8 @@
                     data-bs-target="#portfolioModal2">
 
                     <img class="img-fluid rounded"
-                        src="assets/img/portfolio/hr-dashboard.PNG">
+                        src="assets/img/portfolio/hr-dashboard.png"
+                        alt="HR Dashboard">
 
                     <h4 class="text-center mt-3">
                         HR Analytics Dashboard
@@ -194,37 +218,97 @@
 
     <div class="container text-center">
 
-        <h2>Skills</h2>
+        <h2 class="text-uppercase text-secondary mb-5">
+            Skills
+        </h2>
+
+        <div class="mt-4">
+
+            <span class="badge bg-primary">SQL</span>
+
+            <span class="badge bg-success">Tableau</span>
+
+            <span class="badge bg-dark">Google Sheets</span>
+
+            <span class="badge bg-info text-dark">R Studio</span>
+
+            <span class="badge bg-warning text-dark">Data Visualization</span>
+
+            <span class="badge bg-secondary">Business Intelligence</span>
+
+            <span class="badge bg-danger">Data Cleaning</span>
+
+            <span class="badge bg-primary">Excel</span>
+
+            <span class="badge bg-success">Dashboard Development</span>
+
+            <span class="badge bg-dark">Data Analysis</span>
+
+        </div>
 
     </div>
 
 </section>
 
 <!-- ABOUT -->
-<section class="page-section bg-primary text-white text-center" id="about">
+<section class="page-section bg-primary text-white mb-0" id="about">
 
-    <p>Aspiring Data Analyst passionate about insights.</p>
+    <div class="container">
+
+        <h2 class="page-section-heading text-center text-uppercase text-white">
+            About
+        </h2>
+
+        <div class="divider-custom divider-light">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon">
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="divider-custom-line"></div>
+        </div>
+
+        <div class="row justify-content-center">
+
+            <div class="col-lg-8 text-center">
+
+                <p class="lead">
+                    Aspiring Data Analyst passionate about transforming raw data into
+                    meaningful insights using SQL, Tableau, Google Sheets, and R Studio.
+                    Focused on business intelligence, dashboard design, and data-driven decisions.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
 
 </section>
 
-<!-- CONTACT (ICONS PRESERVED) -->
+<!-- CONTACT -->
 <section class="page-section text-center" id="contact">
 
-    <h2>Contact</h2>
+    <div class="container">
 
-    <div class="contact-icons">
+        <h2 class="page-section-heading text-uppercase text-secondary mb-5">
+            Contact
+        </h2>
 
-        <a href="mailto:ab11999333@gmail.com">
-            <i class="fas fa-envelope fa-3x text-primary"></i>
-        </a>
+        <div class="contact-icons">
 
-        <a href="https://linkedin.com/in/ahmed-basheer93" target="_blank">
-            <i class="fab fa-linkedin fa-3x text-primary"></i>
-        </a>
+            <a href="mailto:ab11999333@gmail.com">
+                <i class="fas fa-envelope fa-3x text-primary"></i>
+            </a>
 
-        <a href="https://github.com/ab1993-analyst" target="_blank">
-            <i class="fab fa-github fa-3x text-primary"></i>
-        </a>
+            <a href="https://linkedin.com/in/ahmed-basheer93" target="_blank">
+                <i class="fab fa-linkedin fa-3x text-primary"></i>
+            </a>
+
+            <a href="https://github.com/ab1993-analyst" target="_blank">
+                <i class="fab fa-github fa-3x text-primary"></i>
+            </a>
+
+        </div>
 
     </div>
 
@@ -233,28 +317,49 @@
 <!-- FOOTER -->
 <footer class="text-center">
 
-    <small>© 2026 Ahmed Basheer</small>
+    <div class="container">
+
+        <small>
+            © 2026 Ahmed Basheer | Data Analyst Portfolio
+        </small>
+
+    </div>
 
 </footer>
 
-<!-- PROJECT 1 MODAL (UNCHANGED FULL) -->
+<!-- PROJECT 1 MODAL -->
 <div class="modal fade" id="portfolioModal1" tabindex="-1">
 
     <div class="modal-dialog modal-xl">
 
-        <div class="modal-content text-center">
+        <div class="modal-content text-center p-4">
 
-            <h2>Cyclistic Bike-Share Case Study</h2>
+            <h2 class="mb-4">
+                Cyclistic Bike-Share Case Study
+            </h2>
 
             <img class="img-fluid rounded mb-4"
-                src="assets/img/portfolio/cyclistic-dashboard.png">
+                src="assets/img/portfolio/cyclistic-dashboard.png"
+                alt="Cyclistic Dashboard">
+
+            <p class="project-description mb-5">
+                Analyzed rider behavior differences between annual members and casual riders
+                using SQL, Google Sheets, and Tableau dashboards.
+            </p>
 
             <div class="dashboard-gallery">
 
-                <img src="assets/img/portfolio/members-vs-casual-riders.png">
-                <img src="assets/img/portfolio/weekly-rides.png">
-                <img src="assets/img/portfolio/monthly-trends.png">
-                <img src="assets/img/portfolio/average-ride-time.png">
+                <img src="assets/img/portfolio/members-vs-casual-riders.png"
+                    alt="Members vs Casual Riders">
+
+                <img src="assets/img/portfolio/weekly-rides.png"
+                    alt="Weekly Rides">
+
+                <img src="assets/img/portfolio/monthly-trends.png"
+                    alt="Monthly Trends">
+
+                <img src="assets/img/portfolio/average-ride-time.png"
+                    alt="Average Ride Time">
 
             </div>
 
@@ -264,21 +369,25 @@
 
 </div>
 
-<!-- PROJECT 2 MODAL (CLEAN SINGLE DASHBOARD VIEW) -->
+<!-- PROJECT 2 MODAL -->
 <div class="modal fade" id="portfolioModal2" tabindex="-1">
 
     <div class="modal-dialog modal-xl">
 
-        <div class="modal-content text-center">
+        <div class="modal-content text-center p-4">
 
-            <h2>HR Analytics Dashboard</h2>
+            <h2 class="mb-4">
+                HR Analytics Dashboard
+            </h2>
 
             <img class="img-fluid rounded mb-4"
-                src="assets/img/portfolio/hr-dashboard.PNG"
+                src="assets/img/portfolio/hr-dashboard.png"
+                alt="HR Dashboard"
                 style="width:100%; max-height:700px; object-fit:contain;">
 
-            <p>
-                HR Analytics dashboard analyzing attrition, salary, and performance trends.
+            <p class="project-description">
+                HR Analytics dashboard analyzing employee attrition,
+                salary trends, department performance, and workforce insights.
             </p>
 
         </div>
@@ -287,6 +396,7 @@
 
 </div>
 
+<!-- BOOTSTRAP -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
