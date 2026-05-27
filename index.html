@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,13 +13,18 @@
 
     <title>Ahmed Basheer | Data Analyst Portfolio</title>
 
+    <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
 
+    <!-- Font Awesome -->
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
 
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
+        rel="stylesheet" />
 
+    <!-- Bootstrap CSS -->
     <link href="css/styles.css" rel="stylesheet" />
 
     <style>
@@ -38,6 +44,11 @@
         .dashboard-gallery img {
             border-radius: 12px;
             box-shadow: 0 4px 18px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s ease;
+        }
+
+        .dashboard-gallery img:hover {
+            transform: scale(1.02);
         }
 
         .contact-icons a {
@@ -47,6 +58,12 @@
 
         .skills-icon {
             color: #1abc9c;
+        }
+
+        .badge {
+            margin-right: 8px;
+            padding: 8px 12px;
+            font-size: 0.9rem;
         }
 
         .project-description {
@@ -59,93 +76,269 @@
 
 <body id="page-top">
 
-<!-- NAV -->
-<nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-    <div class="container">
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
 
-        <a class="navbar-brand" href="#page-top">
-            Ahmed Basheer | Data Analyst
-        </a>
+        <div class="container">
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
-            Menu <i class="fas fa-bars"></i>
-        </button>
+            <a class="navbar-brand" href="#page-top">
+                Ahmed Basheer | Data Analyst
+            </a>
 
-        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarResponsive">
 
-            <ul class="navbar-nav ms-auto">
+                Menu
+                <i class="fas fa-bars"></i>
 
-                <li class="nav-item"><a class="nav-link" href="#portfolio">Projects</a></li>
-                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </button>
 
-            </ul>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#portfolio">
+                            Projects
+                        </a>
+                    </li>
+
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#skills">
+                            Skills
+                        </a>
+                    </li>
+
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#about">
+                            About
+                        </a>
+                    </li>
+
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#contact">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
 
         </div>
 
-    </div>
-</nav>
+    </nav>
 
-<!-- HERO -->
-<header class="masthead bg-primary text-white text-center">
-    <div class="container d-flex align-items-center flex-column">
+    <!-- HERO -->
+    <header class="masthead bg-primary text-white text-center">
 
-        <h1 class="masthead-heading text-uppercase mb-0">
-            Ahmed Basheer
-        </h1>
+        <div class="container d-flex align-items-center flex-column">
 
-        <p class="masthead-subheading font-weight-light mb-0">
-            SQL | Tableau | Data Visualization | Business Insights
-        </p>
+            <h1 class="masthead-heading text-uppercase mb-0">
+                Ahmed Basheer
+            </h1>
 
-    </div>
-</header>
+            <p class="masthead-subheading font-weight-light mb-0">
+                SQL | Google Sheets | Tableau | R Studio | Data Visualization | Business Insights
+            </p>
 
-<!-- PROJECTS -->
-<section class="page-section portfolio" id="portfolio">
+        </div>
 
-    <div class="container">
+    </header>
 
-        <h2 class="text-center text-uppercase text-secondary mb-0">
-            Projects
-        </h2>
+    <!-- PROJECTS -->
+    <section class="page-section portfolio" id="portfolio">
 
-        <div class="row justify-content-center">
+        <div class="container">
 
-            <!-- CYCLISTIC -->
-            <div class="col-md-6 col-lg-5 mb-5">
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">
+                Projects
+            </h2>
 
-                <div class="portfolio-item mx-auto"
-                    data-bs-toggle="modal"
-                    data-bs-target="#portfolioModal1">
+            <div class="divider-custom">
 
-                    <img class="img-fluid rounded"
-                        src="assets/img/portfolio/cyclistic-dashboard.png"
-                        alt="Cyclistic Dashboard">
+                <div class="divider-line"></div>
 
-                    <h4 class="text-center mt-3">
-                        Cyclistic Bike-Share Case Study
-                    </h4>
+                <div class="divider-icon">
+                    <i class="fas fa-star"></i>
+                </div>
+
+                <div class="divider-line"></div>
+
+            </div>
+
+            <div class="row justify-content-center">
+
+                <!-- PROJECT 1 (UNCHANGED) -->
+                <div class="col-md-6 col-lg-5 mb-5">
+
+                    <div class="portfolio-item mx-auto"
+                        data-bs-toggle="modal"
+                        data-bs-target="#portfolioModal1">
+
+                        <img class="img-fluid rounded"
+                            src="assets/img/portfolio/cyclistic-dashboard.png"
+                            alt="Cyclistic Dashboard" />
+
+                        <h4 class="text-center mt-3">
+                            Cyclistic Bike-Share Case Study
+                        </h4>
+
+                    </div>
+
+                </div>
+
+                <!-- PROJECT 2 (ADDED) -->
+                <div class="col-md-6 col-lg-5 mb-5">
+
+                    <div class="portfolio-item mx-auto"
+                        data-bs-toggle="modal"
+                        data-bs-target="#portfolioModal2">
+
+                        <img class="img-fluid rounded"
+                            src="assets/img/portfolio/hr-dashboard.png"
+                            alt="HR Dashboard" />
+
+                        <h4 class="text-center mt-3">
+                            HR Analytics Dashboard
+                        </h4>
+
+                    </div>
 
                 </div>
 
             </div>
 
-            <!-- HR PROJECT -->
-            <div class="col-md-6 col-lg-5 mb-5">
+        </div>
 
-                <div class="portfolio-item mx-auto"
-                    data-bs-toggle="modal"
-                    data-bs-target="#portfolioModal2">
+    </section>
 
-                    <img class="img-fluid rounded"
-                        src="assets/img/portfolio/hr-dashboard.PNG"
+    <!-- SKILLS (UNCHANGED) -->
+    <section class="page-section bg-light" id="skills">
+        <div class="container">
+
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-5">
+                Skills
+            </h2>
+
+            <div class="row text-center">
+
+                <div class="col-md-3 mb-4">
+                    <i class="fas fa-database fa-3x skills-icon mb-3"></i>
+                    <h5>SQL</h5>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <i class="fas fa-table fa-3x skills-icon mb-3"></i>
+                    <h5>Google Sheets</h5>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <i class="fas fa-chart-bar fa-3x skills-icon mb-3"></i>
+                    <h5>Tableau</h5>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <i class="fas fa-code fa-3x skills-icon mb-3"></i>
+                    <h5>R Studio</h5>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ABOUT (UNCHANGED) -->
+    <section class="page-section bg-primary text-white mb-0" id="about">
+        <div class="container text-center">
+
+            <h2>About Me</h2>
+
+            <p class="lead">
+                Aspiring Data Analyst passionate about transforming raw data into insights.
+            </p>
+
+        </div>
+    </section>
+
+    <!-- CONTACT (UNCHANGED) -->
+    <section class="page-section text-center" id="contact">
+
+        <h2>Contact</h2>
+
+        <p>Email: ab11999333@gmail.com</p>
+
+        <p>
+            <a href="https://linkedin.com/in/ahmed-basheer93">LinkedIn</a>
+        </p>
+
+    </section>
+
+    <!-- CYCLISTIC MODAL (UNCHANGED) -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1">
+
+        <div class="modal-dialog modal-xl">
+
+            <div class="modal-content">
+
+                <div class="modal-body text-center">
+
+                    <h2>Cyclistic Bike-Share Case Study</h2>
+
+                    <img class="img-fluid rounded mb-4"
+                        src="assets/img/portfolio/cyclistic-dashboard.png">
+
+                    <p>SQL analysis of rider behavior and trends.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- 🔥 HR ANALYTICS MODAL (ADDED) -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1">
+
+        <div class="modal-dialog modal-xl">
+
+            <div class="modal-content">
+
+                <div class="modal-body text-center">
+
+                    <h2>HR Analytics Dashboard</h2>
+
+                    <img class="img-fluid rounded mb-4"
+                        src="assets/img/portfolio/hr-dashboard.png"
                         alt="HR Dashboard">
 
-                    <h4 class="text-center mt-3">
-                        HR Analytics Dashboard
-                    </h4>
+                    <p>
+                        Analysis of employee attrition, salary trends, and workforce insights using SQL and Tableau.
+                    </p>
+
+                    <a href="https://github.com/ab1993-analyst/hr-analytics"
+                        target="_blank"
+                        class="btn btn-primary">
+
+                        View GitHub Repo
+
+                    </a>
+
+                    <br><br>
+
+                    <button class="btn btn-secondary"
+                        data-bs-dismiss="modal">
+
+                        Close
+
+                    </button>
 
                 </div>
 
@@ -155,94 +348,9 @@
 
     </div>
 
-</section>
-
-<!-- SKILLS -->
-<section class="page-section bg-light" id="skills">
-    <div class="container text-center">
-
-        <h2 class="mb-5">Skills</h2>
-
-        <p>SQL | Tableau | Google Sheets | Data Visualization | R Studio</p>
-
-    </div>
-</section>
-
-<!-- ABOUT -->
-<section class="page-section bg-primary text-white text-center" id="about">
-    <div class="container">
-
-        <h2>About Me</h2>
-
-        <p class="lead">
-            Aspiring Data Analyst passionate about turning data into insights.
-        </p>
-
-    </div>
-</section>
-
-<!-- CONTACT -->
-<section class="page-section text-center" id="contact">
-
-    <h2>Contact</h2>
-
-    <p>Email: ab11999333@gmail.com</p>
-
-    <p>
-        <a href="https://linkedin.com/in/ahmed-basheer93">LinkedIn</a>
-    </p>
-
-</section>
-
-<!-- CYCLISTIC MODAL -->
-<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1">
-
-    <div class="modal-dialog modal-xl">
-
-        <div class="modal-content">
-
-            <div class="modal-body text-center">
-
-                <h2>Cyclistic Bike-Share Case Study</h2>
-
-                <img class="img-fluid rounded mb-4"
-                    src="assets/img/portfolio/cyclistic-dashboard.png">
-
-                <p>SQL analysis of rider behavior and trends.</p>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
-
-<!-- HR MODAL -->
-<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1">
-
-    <div class="modal-dialog modal-xl">
-
-        <div class="modal-content">
-
-            <div class="modal-body text-center">
-
-                <h2>HR Analytics Dashboard</h2>
-
-                <img class="img-fluid rounded mb-4"
-                    src="assets/img/portfolio/hr-dashboard.png">
-
-                <p>Analyzed employee attrition and salary trends using SQL and Tableau.</p>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
+
 </html>
