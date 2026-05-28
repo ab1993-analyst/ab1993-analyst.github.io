@@ -1,520 +1,572 @@
-<!DOCTYPE html>
 
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
 
     <meta charset="utf-8" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-<meta name="description" content="Ahmed Basheer Data Analyst Portfolio" />
+    <meta name="description" content="Ahmed Basheer Data Analyst Portfolio" />
+    <meta name="keywords"
+        content="Data Analyst, SQL, Tableau, Google Sheets, R Studio, Portfolio, Data Visualization, Business Intelligence" />
+    <meta name="author" content="Ahmed Basheer" />
 
-<meta name="keywords"
+    <title>Ahmed Basheer | Data Analyst Portfolio</title>
 
-    content="Data Analyst, SQL, Tableau, Google Sheets, R Studio, Portfolio, Data Visualization, Business Intelligence" />
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
 
-<meta name="author" content="Ahmed Basheer" />
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"
+        crossorigin="anonymous"></script>
 
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+        rel="stylesheet" />
 
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
+        rel="stylesheet" />
 
-<title>Ahmed Basheer | Data Analyst Portfolio</title>
+    <link href="css/styles.css" rel="stylesheet" />
 
+    <style>
 
-
-<link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-
-
-
-<script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-
-
-
-<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" />
-
-<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" />
-
-
-
-<link href="css/styles.css" rel="stylesheet" />
-
-
-
-<style>
-
-
-
-    html {
-
-        scroll-behavior: smooth;
-
-    }
-
-
-
-    .portfolio-item {
-
-        cursor: pointer;
-
-        transition: transform 0.3s ease;
-
-    }
-
-
-
-    .portfolio-item:hover {
-
-        transform: scale(1.03);
-
-    }
-
-
-
-    .dashboard-gallery img {
-
-        border-radius: 12px;
-
-        box-shadow: 0 4px 18px rgba(0, 0, 0, 0.15);
-
-        transition: transform 0.3s ease;
-
-        margin-bottom: 20px;
-
-        width: 100%;
-
-    }
-
-
-
-    .dashboard-gallery img:hover {
-
-        transform: scale(1.02);
-
-    }
-
-
-
-    .contact-icons a {
-
-        margin: 0 20px;
-
-        text-decoration: none;
-
-    }
-
-
-
-    .skills-icon {
-
-        color: #1abc9c;
-
-    }
-
-
-
-    .badge {
-
-        margin: 8px;
-
-        padding: 10px 16px;
-
-        font-size: 0.95rem;
-
-    }
-
-
-
-    .project-description {
-
-        max-width: 900px;
-
-        margin: auto;
-
-    }
-
-
-
-    footer {
-
-        padding: 20px;
-
-        background: #2c3e50;
-
-        color: white;
-
-    }
-
-
-
-    /* FADE IN ANIMATION */
-
-
-
-    .fade-in {
-
-        opacity: 0;
-
-        transform: translateY(30px);
-
-        transition: all 0.8s ease-out;
-
-    }
-
-
-
-    .fade-in.show {
-
-        opacity: 1;
-
-        transform: translateY(0);
-
-    }
-
-
-
-    /* MOBILE RESPONSIVE */
-
-
-
-    @media (max-width: 768px) {
-
-
-
-        .masthead-heading {
-
-            font-size: 2rem;
-
+        html {
+            scroll-behavior: smooth;
         }
-
-
 
         .portfolio-item {
-
-            margin-bottom: 30px;
-
+            cursor: pointer;
+            transition: transform 0.3s ease;
         }
 
-
+        .portfolio-item:hover {
+            transform: scale(1.03);
+        }
 
         .dashboard-gallery img {
-
-            margin-bottom: 15px;
-
+            border-radius: 12px;
+            box-shadow: 0 4px 18px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s ease;
+            margin-bottom: 20px;
+            width: 100%;
         }
 
-
+        .dashboard-gallery img:hover {
+            transform: scale(1.02);
+        }
 
         .contact-icons a {
-
-            margin: 10px;
-
-            display: inline-block;
-
+            margin: 0 20px;
+            text-decoration: none;
         }
 
-
+        .badge {
+            margin: 8px;
+            padding: 10px 16px;
+            font-size: 0.95rem;
+        }
 
         .project-description {
+            max-width: 900px;
+            margin: auto;
+        }
 
-            padding: 0 15px;
+        footer {
+            padding: 20px;
+            background: #2c3e50;
+            color: white;
+        }
+
+        /* Fade Animation */
+
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease-out;
+        }
+
+        .fade-in.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Mobile Responsive */
+
+        @media (max-width: 768px) {
+
+            .masthead-heading {
+                font-size: 2rem;
+            }
+
+            .portfolio-item {
+                margin-bottom: 30px;
+            }
+
+            .dashboard-gallery img {
+                margin-bottom: 15px;
+            }
+
+            .contact-icons a {
+                margin: 10px;
+                display: inline-block;
+            }
+
+            .project-description {
+                padding: 0 15px;
+            }
 
         }
 
-
-
-    }
-
-
-
-</style>
+    </style>
 
 </head>
 
 <body id="page-top">
 
 <!-- NAVIGATION -->
-
 <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
 
-<div class="container">
+    <div class="container">
 
+        <a class="navbar-brand" href="#page-top">
+            Ahmed Basheer | Data Analyst
+        </a>
 
+        <button class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarResponsive">
 
-    <a class="navbar-brand" href="#page-top">
+            Menu <i class="fas fa-bars"></i>
 
-        Ahmed Basheer | Data Analyst
+        </button>
 
-    </a>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
 
+            <ul class="navbar-nav ms-auto">
 
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Projects</a>
+                </li>
 
-    <button class="navbar-toggler"
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
 
-        type="button"
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
 
-        data-bs-toggle="collapse"
+                <li class="nav-item">
+                    <a class="nav-link"
+                        href="assets/Ahmed_Basheer_Resume.pdf"
+                        target="_blank">
+                        Resume
+                    </a>
+                </li>
 
-        data-bs-target="#navbarResponsive">
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
 
+            </ul>
 
-
-        Menu <i class="fas fa-bars"></i>
-
-
-
-    </button>
-
-
-
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-
-
-
-        <ul class="navbar-nav ms-auto">
-
-
-
-            <li class="nav-item">
-
-                <a class="nav-link" href="#portfolio">Projects</a>
-
-            </li>
-
-
-
-            <li class="nav-item">
-
-                <a class="nav-link" href="#skills">Skills</a>
-
-            </li>
-
-
-
-            <li class="nav-item">
-
-                <a class="nav-link" href="#about">About</a>
-
-            </li>
-
-
-
-            <li class="nav-item">
-
-                <a class="nav-link"
-
-                    href="assets/Ahmed_Basheer_Resume.pdf"
-
-                    target="_blank">
-
-                    Resume
-
-                </a>
-
-            </li>
-
-
-
-            <li class="nav-item">
-
-                <a class="nav-link" href="#contact">Contact</a>
-
-            </li>
-
-
-
-        </ul>
-
-
+        </div>
 
     </div>
-
-
-
-</div>
 
 </nav>
 
 <!-- HERO -->
-
 <header class="masthead bg-primary text-white text-center">
 
-<div class="container d-flex flex-column align-items-center fade-in">
+    <div class="container d-flex flex-column align-items-center fade-in">
 
+        <img class="masthead-avatar mb-5"
+            src="assets/img/ahmed-profile.jpg"
+            alt="Ahmed Basheer">
 
+        <h1 class="masthead-heading text-uppercase mb-0">
+            Ahmed Basheer
+        </h1>
 
-    <img class="masthead-avatar mb-5"
+        <div class="divider-custom divider-light">
 
-        src="assets/img/ahmed-profile.jpg"
+            <div class="divider-custom-line"></div>
 
-        alt="Ahmed Basheer">
+            <div class="divider-custom-icon">
+                <i class="fas fa-chart-line"></i>
+            </div>
 
-
-
-    <h1 class="masthead-heading text-uppercase mb-0">
-
-        Ahmed Basheer
-
-    </h1>
-
-
-
-    <div class="divider-custom divider-light">
-
-
-
-        <div class="divider-custom-line"></div>
-
-
-
-        <div class="divider-custom-icon">
-
-            <i class="fas fa-chart-line"></i>
+            <div class="divider-custom-line"></div>
 
         </div>
 
-
-
-        <div class="divider-custom-line"></div>
-
-
+        <p class="masthead-subheading font-weight-light mb-0">
+            SQL | Google Sheets | Tableau | R Studio | Data Visualization | Business Insights
+        </p>
 
     </div>
-
-
-
-    <p class="masthead-subheading font-weight-light mb-0">
-
-        SQL | Google Sheets | Tableau | R Studio | Data Visualization | Business Insights
-
-    </p>
-
-
-
-</div>
 
 </header>
 
 <!-- PROJECTS -->
-
 <section class="page-section portfolio fade-in" id="portfolio">
 
-<div class="container">
+    <div class="container">
 
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-5">
+            Projects
+        </h2>
 
+        <div class="row justify-content-center">
 
-    <h2 class="page-section-heading text-center text-uppercase text-secondary mb-5">
+            <!-- PROJECT 1 -->
+            <div class="col-md-6 col-lg-5 mb-5">
 
-        Projects
+                <div class="portfolio-item mx-auto"
+                    data-bs-toggle="modal"
+                    data-bs-target="#portfolioModal1">
 
-    </h2>
+                    <img class="img-fluid rounded"
+                        src="assets/img/portfolio/cyclistic-dashboard.png"
+                        alt="Cyclistic Dashboard">
 
+                    <h4 class="text-center mt-3">
+                        Cyclistic Bike-Share Case Study
+                    </h4>
 
+                    <div class="text-center mt-2">
 
-    <div class="row justify-content-center">
+                        <a href="https://github.com/ab1993-analyst"
+                            target="_blank"
+                            class="btn btn-dark btn-sm">
 
+                            GitHub Repository
 
+                        </a>
 
-        <!-- PROJECT 1 -->
+                    </div>
 
-        <div class="col-md-6 col-lg-5 mb-5">
-
-
-
-            <div class="portfolio-item mx-auto"
-
-                data-bs-toggle="modal"
-
-                data-bs-target="#portfolioModal1">
-
-
-
-                <img class="img-fluid rounded"
-
-                    src="assets/img/portfolio/cyclistic-dashboard.png"
-
-                    alt="Cyclistic Dashboard">
-
-
-
-                <h4 class="text-center mt-3">
-
-                    Cyclistic Bike-Share Case Study
-
-                </h4>
-
-
+                </div>
 
             </div>
 
+            <!-- PROJECT 2 -->
+            <div class="col-md-6 col-lg-5 mb-5">
 
+                <div class="portfolio-item mx-auto"
+                    data-bs-toggle="modal"
+                    data-bs-target="#portfolioModal2">
 
-        </div>
+                    <img class="img-fluid rounded"
+                        src="assets/img/portfolio/hr-dashboard.PNG"
+                        alt="HR Dashboard">
 
+                    <h4 class="text-center mt-3">
+                        HR Analytics Dashboard
+                    </h4>
 
+                    <div class="text-center mt-2">
 
-        <!-- PROJECT 2 -->
+                        <a href="https://github.com/ab1993-analyst/hr-analytics-dashboard"
+                            target="_blank"
+                            class="btn btn-dark btn-sm">
 
-        <div class="col-md-6 col-lg-5 mb-5">
+                            GitHub Repository
 
+                        </a>
 
+                    </div>
 
-            <div class="portfolio-item mx-auto"
-
-                data-bs-toggle="modal"
-
-                data-bs-target="#portfolioModal2">
-
-
-
-                <img class="img-fluid rounded"
-
-                    src="assets/img/portfolio/hr-dashboard.PNG"
-
-                    alt="HR Dashboard">
-
-
-
-                <h4 class="text-center mt-3">
-
-                    HR Analytics Dashboard
-
-                </h4>
-
-
+                </div>
 
             </div>
 
+            <!-- PROJECT 3 -->
+            <div class="col-md-6 col-lg-5 mb-5">
 
+                <div class="portfolio-item mx-auto"
+                    data-bs-toggle="modal"
+                    data-bs-target="#portfolioModal3">
+
+                    <img class="img-fluid rounded"
+                        src="assets/img/portfolio/churn-dashboard.png"
+                        alt="Customer Churn Analysis">
+
+                    <h4 class="text-center mt-3">
+                        Customer Churn Analysis Using R
+                    </h4>
+
+                    <div class="text-center mt-2">
+
+                        <a href="https://github.com/ab1993-analyst/customer-churn-analysis"
+                            target="_blank"
+                            class="btn btn-dark btn-sm">
+
+                            GitHub Repository
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
 
         </div>
 
+    </div>
 
+</section>
 
-        <!-- PROJECT 3 -->
+<!-- SKILLS -->
+<section class="page-section bg-light fade-in" id="skills">
 
-        <div class="col-md-6 col-lg-5 mb-5">
+    <div class="container text-center">
 
+        <h2 class="text-uppercase text-secondary mb-5">
+            Skills
+        </h2>
 
+        <div class="mt-4">
 
-            <div class="portfolio-item mx-auto"
+            <span class="badge bg-primary">SQL</span>
+            <span class="badge bg-success">Tableau</span>
+            <span class="badge bg-dark">Google Sheets</span>
+            <span class="badge bg-info text-dark">R Studio</span>
+            <span class="badge bg-warning text-dark">Data Visualization</span>
+            <span class="badge bg-secondary">Business Intelligence</span>
+            <span class="badge bg-danger">Data Cleaning</span>
+            <span class="badge bg-primary">Excel</span>
+            <span class="badge bg-success">Dashboard Development</span>
+            <span class="badge bg-dark">Data Analysis</span>
 
-                data-bs-toggle="modal"
+        </div>
 
-                data-bs-target="#portfolioModal3">
+    </div>
 
+</section>
 
+<!-- ABOUT -->
+<section class="page-section bg-primary text-white mb-0 fade-in" id="about">
 
-                <img class="img-fluid rounded"
+    <div class="container">
 
-                    src="assets/img/portfolio/churn-dashboard.png"
+        <h2 class="page-section-heading text-center text-uppercase text-white">
+            About
+        </h2>
 
-                    alt="Customer Churn Analysis">
+        <div class="divider-custom divider-light">
 
+            <div class="divider-custom-line"></div>
 
+            <div class="divider-custom-icon">
+                <i class="fas fa-user"></i>
+            </div>
 
-                <h4 class="text-center mt-3">
+            <div class="divider-custom-line"></div>
 
-                    Customer Churn Analysis (R)
+        </div>
 
-                </h4>
+        <div class="row justify-content-center">
 
+            <div class="col-lg-8 text-center">
+
+                <p class="lead">
+                    Aspiring Data Analyst passionate about transforming raw data into
+                    meaningful insights using SQL, Tableau, Google Sheets, and R Studio.
+                    Focused on business intelligence, dashboard design, and data-driven decisions.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- CONTACT -->
+<section class="page-section text-center fade-in" id="contact">
+
+    <div class="container">
+
+        <h2 class="page-section-heading text-uppercase text-secondary mb-5">
+            Contact
+        </h2>
+
+        <div class="contact-icons">
+
+            <a href="mailto:ab11999333@gmail.com">
+                <i class="fas fa-envelope fa-3x text-primary"></i>
+            </a>
+
+            <a href="https://linkedin.com/in/ahmed-basheer93" target="_blank">
+                <i class="fab fa-linkedin fa-3x text-primary"></i>
+            </a>
+
+            <a href="https://github.com/ab1993-analyst" target="_blank">
+                <i class="fab fa-github fa-3x text-primary"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="text-center">
+
+    <div class="container">
+
+        <small>
+            © 2026 Ahmed Basheer | Data Analyst Portfolio
+        </small>
+
+    </div>
+
+</footer>
+
+<!-- PROJECT 1 MODAL -->
+<div class="modal fade" id="portfolioModal1" tabindex="-1">
+
+    <div class="modal-dialog modal-xl">
+
+        <div class="modal-content text-center p-4">
+
+            <h2 class="mb-4">
+                Cyclistic Bike-Share Case Study
+            </h2>
+
+            <img class="img-fluid rounded mb-4"
+                src="assets/img/portfolio/cyclistic-dashboard.png"
+                alt="Cyclistic Dashboard">
+
+            <p class="project-description mb-5">
+                Analyzed rider behavior differences between annual members and casual riders
+                using SQL, Google Sheets, and Tableau dashboards.
+            </p>
+
+            <div class="dashboard-gallery">
+
+                <img src="assets/img/portfolio/members-vs-casual-riders.png">
+
+                <img src="assets/img/portfolio/weekly-rides.png">
+
+                <img src="assets/img/portfolio/monthly-trends.png">
+
+                <img src="assets/img/portfolio/average-ride-time.png">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- PROJECT 2 MODAL -->
+<div class="modal fade" id="portfolioModal2" tabindex="-1">
+
+    <div class="modal-dialog modal-xl">
+
+        <div class="modal-content text-center p-4">
+
+            <h2 class="mb-4">
+                HR Analytics Dashboard
+            </h2>
+
+            <img class="img-fluid rounded mb-4"
+                src="assets/img/portfolio/hr-dashboard.PNG"
+                alt="HR Dashboard">
+
+            <p class="project-description mb-4">
+                HR Analytics dashboard analyzing employee attrition,
+                workforce trends, salary distribution, and employee performance insights.
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- PROJECT 3 MODAL -->
+<div class="modal fade" id="portfolioModal3" tabindex="-1">
+
+    <div class="modal-dialog modal-xl">
+
+        <div class="modal-content text-center p-4">
+
+            <h2 class="mb-4">
+                Customer Churn Analysis Using R
+            </h2>
+
+            <img class="img-fluid rounded mb-4"
+                src="assets/img/portfolio/churn-dashboard.png"
+                alt="Customer Churn Analysis">
+
+            <p class="project-description mb-5">
+                Performed customer churn analysis using the IBM Telco Customer Churn dataset.
+                Used R, ggplot2, and data visualization techniques to identify churn patterns,
+                customer behavior trends, and retention opportunities.
+            </p>
+
+            <div class="dashboard-gallery">
+
+                <img src="assets/img/portfolio/churn_contract_type.png"
+                    alt="Churn by Contract Type">
+
+                <img src="assets/img/portfolio/monthly_charges_vs_churn.png"
+                    alt="Monthly Charges vs Churn">
+
+                <img src="assets/img/portfolio/customer_tenure_distribution.png"
+                    alt="Customer Tenure Distribution">
+
+                <img src="assets/img/portfolio/churn_by_internet_service.png"
+                    alt="Churn by Internet Service">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- BOOTSTRAP -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- FADE IN SCRIPT -->
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const elements = document.querySelectorAll(".fade-in");
+
+    const observer = new IntersectionObserver(entries => {
+
+        entries.forEach(entry => {
+
+            if (entry.isIntersecting) {
+                entry.target.classList.add("show");
+            }
+
+        });
+
+    }, {
+        threshold: 0.15
+    });
+
+    elements.forEach(el => {
+        observer.observe(el);
+    });
+
+});
+
+</script>
+
+</body>
+
+</html>
