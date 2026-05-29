@@ -1,5 +1,11 @@
 # 🚲 Cyclistic Bike-Share Case Study
 
+![SQL](https://img.shields.io/badge/SQL-276DC3?style=for-the-badge&logo=SQL&logoColor=white)
+![Google Sheets](https://img.shields.io/badge/GoogleSheets-75AADB?style=for-the-badge&logo=rstudio&logoColor=white)
+![Data Cleaning](https://img.shields.io/badge/DataCleaning-Data%20Visualization-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/Project-Completed-success?style=for-the-badge)
+
+---
 ## 📊 Overview
 
 This project analyzes Cyclistic bike-share data to understand how **casual riders** and **annual members** use bikes differently.  
