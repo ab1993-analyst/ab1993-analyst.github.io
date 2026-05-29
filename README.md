@@ -6,7 +6,7 @@
 ![Status](https://img.shields.io/badge/Project-Completed-success?style=for-the-badge)
 
 ---
-## 📊 Overview
+## 📊  Project Overview
 
 This project analyzes Cyclistic bike-share data to understand how **casual riders** and **annual members** use bikes differently.  
 The goal is to identify behavioral patterns that can help improve marketing strategies and increase membership conversions.
