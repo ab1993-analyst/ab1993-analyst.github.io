@@ -148,8 +148,9 @@ Understanding rider behavior enables data-driven decisions that can increase Cyc
 Aspiring Data Analyst  
 
 📊 Skills:  
-SQL | Google Sheets | Data Visualization | Data Analysis  
+SQL | Google Sheets | Data Visualization | Data Analysis | Tableau |
 
 📫 Contact:  
 Email: ab11999333@gmail.com  
 LinkedIn: http://linkedin.com/in/ahmed-basheer93
+GitHub Portfolio: https://ab1993-analyst.github.io/#portfolio
